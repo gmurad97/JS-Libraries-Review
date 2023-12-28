@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilt.JS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <span class="design" data-tilt>
+            <p class="tilt-text">gmurad97</p>
+        </span>
+    </div>
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/tilt.jquery.min.js"></script>
+    <script>
+        $('.design').tilt({
+            glare: true,
+            maxGlare: .5,
+            scale: 1.2
+        })
+    </script>
+</body>
+
+</html>

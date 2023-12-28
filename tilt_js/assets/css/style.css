@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333333;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design {
+    width: 150px;
+    height: 250px;
+    background-image: conic-gradient(at 50% 50%, rgba(45, 16, 56, 100) 0%, rgba(86, 61, 124, 100) 100%);
+    transform-style: preserve-3d;
+}
+
+.tilt-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(150px) rotate(-90deg);
+    font-family: "Impact";
+    text-transform: uppercase;
+
+}
